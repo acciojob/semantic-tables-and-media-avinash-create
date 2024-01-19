@@ -3,60 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media List</title>
+    <title>Document</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+        }
+		li:nth-child(2){
+			
+		}
+    </style>
 </head>
 <body>
-
-    <!-- Table -->
     <table>
         <thead>
             <tr>
-                <th>Roll Number</th>
+                <th>Roll Numbers</th>
                 <th>Name</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>001</td>
-                <td>John Doe</td>
+                <td>101</td>
+                <td>Chiku</td>
             </tr>
             <tr>
-                <td>002</td>
-                <td>Jane Smith</td>
+                <td>102</td>
+                <td>Kiku</td>
             </tr>
-            
+            <tr>
+                <td>103</td>
+                <td>Kaku</td>
+            </tr>
         </tbody>
     </table>
-
-    <!-- Heading for the list -->
-    
-
-    <!-- Ordered List -->
+    <h1>List of medias</h1>
     <ol>
-        <!-- First Item -->
-        <li>
-            <p>Image:</p>
-            <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
-        </li>
-        
-        <!-- Second Item -->
-        <li>
-            <p>Video:</p>
-            <video width="200" height="300" controls>
-                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </li>
-
-        <!-- Third Item -->
-        <li>
-            <p>Audio:</p>
-            <audio controls>
-                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-                Your browser does not support the audio tag.
-            </audio>
-        </li>
+        <li><img src="https://picsum.photos/id/123/200/300" alt="rain"></li>
+        <li><video width="320" height="240" controls>
+  <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+</video></li>
+        <li><audio controls src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+        </audio></li>
     </ol>
-
 </body>
-</html>
